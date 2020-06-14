@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  border-radius: 4px;
+  display: block;
+}
+
+body {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  width: 400px;
+  font-family: "Courier New", Courier, monospace;
+  background: dodgerblue;
+  height: 44px;
+  border-radius: 4px;
+  margin: 0;
+}
+
