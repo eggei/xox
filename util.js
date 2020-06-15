@@ -98,7 +98,6 @@ function aiTurn(firstTurn) {
           });
           board[i][j] = player.ai.sign;
           let score = minimax(board, 0, true);
-          console.log(score);
           board[i][j] = "";
 
           if (score < bestScore) {
